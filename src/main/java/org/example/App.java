@@ -8,12 +8,12 @@ import java.util.Scanner;
 public class App 
 {
     public static void main( String[] args ) {
-        Scanner scanNum1 = new Scanner(System.in);
-        Scanner scanNum2 = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+
         System.out.print("What is the first number? ");
-        String str1 = scanNum1.nextLine();
+        String str1 = scan.nextLine();
         System.out.print("What is the second number? ");
-        String str2 = scanNum2.nextLine();
+        String str2 = scan.nextLine();
 
         int num1 = Integer.parseInt(str1);
         int num2 = Integer.parseInt(str2);
